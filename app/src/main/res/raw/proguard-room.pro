@@ -1,0 +1,6 @@
+-keep class com.focusmate.app.data.models.** { *; }
+-keep class com.focusmate.app.data.database.** { *; }
+-keepclassmembers class * extends androidx.room.RoomDatabase { *; }
+-keepclassmembers class * extends androidx.room.DatabaseConfiguration { *; }
+-keep @androidx.room.Entity class * { *; }
+-keep @androidx.room.Dao interface * { *; }

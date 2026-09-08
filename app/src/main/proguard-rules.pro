@@ -1,0 +1,8 @@
+-keep class com.focusmate.app.** { *; }
+-keep class com.focusmate.app.data.** { *; }
+-keep class com.focusmate.app.ui.** { *; }
+-keepclassmembers class com.focusmate.app.** { *; }
+-keep class androidx.** { *; }
+-keep class com.google.android.material.** { *; }
+-dontwarn androidx.**
+-dontwarn com.google.android.material.**
