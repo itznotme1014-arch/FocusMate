@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FocusMate</string>
+    <string name="home_title">Home</string>
+    <string name="tasks_title">Tasks</string>
+    <string name="progress_title">Progress</string>
+</resources>
